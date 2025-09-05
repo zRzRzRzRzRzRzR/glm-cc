@@ -64,3 +64,4 @@ added 3 packages in 2s
 
 + [GLM-4.5 + Claude Code](glm-4.5-claude-code-integration.md): 将 Claude Code 的模型替换为 GLM-4.5，支持脚本一键安装。
 + [GLM-4.5 + Kcode](glm-4.5-kcode-integration.md): 将 开源代码项目 [Kode](https://github.com/shareAI-lab/Kode) 支持 GLM-4.5。
++ [GLM-CookBook](https://github.com/MetaGLM/glm-cookbook): GLM API 使用示例与指南。

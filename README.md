@@ -65,3 +65,4 @@ This confirms successful setup.
 
 + [GLM-4.5 + Claude Code](glm-4.5-claude-code-integration.md): Replace Claude Code's model with GLM-4.5, supporting one-click script installation.
 + [GLM-4.5 + Kcode](glm-4.5-kcode-integration.md): Add GLM-4.5 support to the open-source project [Kode](https://github.com/shareAI-lab/Kode).
++ [GLM-CookBook](https://github.com/MetaGLM/glm-cookbook): Examples and guides for using the GLM APIs 

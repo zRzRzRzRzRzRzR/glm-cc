@@ -1,10 +1,10 @@
 # glm-cc
 
-Integrating GLM-4.5 with Vibe Coding tools like Claude Code
+将 GLM-4.5 与 Vibe Coding 工具（如 Claude Code）集成。
 
-## Quick Setup for Claude Code
+## 快速配置 Claude Code
 
-1. Install and run the one-click setup script
+1. 安装一键配置脚本并运行
 
 ```bash
 curl -o glm_claude_setup.sh "http://bigmodel-us3-prod-marketplace.cn-wlcb.ufileos.com/1753683727739-0b3a4f6e84284f1b9afa951ab7873c29.sh?ufileattname=claude_code_prod.sh"
@@ -12,9 +12,9 @@ chmod +x glm_claude_setup.sh
 ./glm_claude_setup.sh
 ```
 
-2. Enter your ZhipuAI API Key here
+2. 在此输入智谱AI的API Key
 
-```shell
+```
 🚀 Starting glm_claude_setup.sh
 ✅ Node.js is already installed: v20.18.3
 🔹 Installing Claude Code...
@@ -26,10 +26,10 @@ added 3 packages in 2s
 ✅ Claude Code installed successfully
 🔹 Configuring Claude Code...
    You can get your API key from: https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys
-🔑 Please enter your ZHIPU API key: `Enter your ZhipuAI API Key here`
+🔑 Please enter your ZHIPU API key: `在这里写入智谱AI的API Key`
 ```
 
-After entering the key and pressing Enter, you should see:
+输入后按下回车，出现
 
 ```shell
 ✅ Claude Code configured successfully
@@ -38,7 +38,7 @@ After entering the key and pressing Enter, you should see:
    claude
 ```
 
-This indicates successful installation. Running `claude` should display:
+即为安装完成，运行`claude`出现:
 
 ```
 ╭───────────────────────────────────────────────────╮
@@ -58,10 +58,9 @@ This indicates successful installation. Running `claude` should display:
 ╰───────────────────────────────────────────────────╯
 ```
 
+则为成功。
 
-This confirms successful setup.
+## 更多内容
 
-## More Content
-
-+ [GLM-4.5 + Claude Code](glm-4.5-claude-code-integration.md): Replace Claude Code's model with GLM-4.5, supporting one-click script installation.
-+ [GLM-4.5 + Kcode](glm-4.5-kcode-integration.md): Add GLM-4.5 support to the open-source project [Kode](https://github.com/shareAI-lab/Kode).
++ [GLM-4.5 + Claude Code](glm-4.5-claude-code-integration.md): 将 Claude Code 的模型替换为 GLM-4.5，支持脚本一键安装。
++ [GLM-4.5 + Kcode](glm-4.5-kcode-integration.md): 将 开源代码项目 [Kode](https://github.com/shareAI-lab/Kode) 支持 GLM-4.5。
